@@ -1,0 +1,8 @@
+{{#each books as |book|}}
+  <div data-id="{{book.id}}" class="row" >
+    <div class="col-xs-12" style="border-bottom: 1px solid black; margin-bottom: 2px;">
+      <h6 class="col-xs-6">Title: {{book.title}}</h6>
+      <h6 class="col-xs-6">Author: {{book.author}}</h6>
+    </div>
+  </div>
+{{/each}}
