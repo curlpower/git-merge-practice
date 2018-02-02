@@ -11,7 +11,7 @@ const onGetAllBooks = function (event) {
 }
 
 const addHandlers = function () {
-  $('#allBooksButton').on('submit', onGetAllBooks)
+  $('#allBooksButton').on('click', onGetAllBooks)
 }
 
 module.exports = {
