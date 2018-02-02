@@ -2,11 +2,10 @@
 
 const config = require('../config')
 
-const showFullList = function (data) {
+const showFullList = function () {
   return $.ajax({
     url: config.apiOrigin + '/books/',
-    method: 'GET',
-    data
+    method: 'GET'
   })
 }
 
