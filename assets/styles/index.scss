@@ -1,2 +1,19 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+h1 {
+  font-size: 100px;
+}
+
+.button {
+  width: 250px;
+  height: 100px;
+  padding: 9px 20px;
+  border: 1px solid;
+  font: Helvetica, serif;
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+  background: #e4245b;
+  border-radius: 12px;
+}
