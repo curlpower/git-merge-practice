@@ -8,6 +8,11 @@ const getAllBooksSuccess = function (data) {
   $('.book-content').append(showBooksHtml)
 }
 
+const getAllBooksFailure = function (error) {
+  console.error(error)
+}
+
 module.exports = {
-  getAllBooksSuccess
+  getAllBooksSuccess,
+  getAllBooksFailure
 }
